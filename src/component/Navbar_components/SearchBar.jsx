@@ -37,7 +37,7 @@ export default function SearchBar() {
       );
       setResult(filtered);
     } catch (error) {
-      console.error("Search error:", error);
+      console.error("Search error:", error)
     } finally {
       setLoading(false);
     }
